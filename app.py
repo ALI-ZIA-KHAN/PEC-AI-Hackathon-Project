@@ -36,13 +36,13 @@ from google.colab import files
 
 
 # API Keys
-os.environ["GROQ_API_KEY"] = "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"  # Replace with your GROQ API key
+os.environ["GROQ_API_KEY"] = "Replace with your GROQ API "  # Replace with your GROQ API 
 client = Groq(api_key=os.environ["GROQ_API_KEY"])
 MODEL = "llama3-8b-8192"
 load_dotenv()
-SERPER_API_KEY = "028f63cdbf09a0e3a325cd19eb947e6005058cb2"
+SERPER_API_KEY = "Replace with your GROQ API key"
 
-GROQ_API_KEY = "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"
+GROQ_API_KEY = "Replace with your GROQ API key"
 groq_client = Groq(api_key=GROQ_API_KEY)
 
 # Initialize session state
